@@ -1,0 +1,247 @@
+/* ulti */
+:root {
+	--blackhov: #5f6368;
+	--black: #25272b;
+	--greyblack: #605b5b;
+	--darkblue: #1c4b9a;
+	--greyy: rgba(32, 33, 36, 0.059);
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.btn-w {
+	width: 200px;
+}
+
+.form-radius {
+	border-radius: 35px !important;
+}
+
+.mt-10 {
+	margin-top: 80px;
+}
+
+.mt-230 {
+	margin-top: 230px;
+}
+
+
+/* navbar */
+.newaku {
+	color: var(--black) !important;
+	background-color: #d9d9d9 !important;
+	margin-left: 10px;
+	border-radius: 20px;
+}
+
+.border-none {
+	border: none !important;
+}
+
+.modal-content {
+	border: solid 1px transparent !important;
+}
+
+.shrink,
+.modal-content {
+	-webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05) !important;
+	box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05) !important;
+	background-color: #fff;
+}
+
+.brand-text {
+	color: var(--black);
+}
+
+.brand-image {
+	width: 40px !important;
+}
+
+
+.img-ava {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+}
+
+/* sidebar */
+.active {
+	color: var(--blue) !important;
+	background-color: #f2f2f2 !important;
+}
+
+.nav-link {
+	color: var(--blackhov);
+	font-size: 18px;
+}
+
+.nav-link:hover {
+	background-color: #f2f2f2 !important;
+	border-radius: 20px;
+	color: var(--blackhov) !important;
+}
+
+
+/* wrppaer */
+.content-wrapper {
+	background: rgb(247, 248, 254) !important;
+}
+
+/* main dashboard */
+.card-header {
+	background-color: #fcfdff;
+}
+
+.embed-responsive,
+.card {
+	border-radius: 6px !important;
+	box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0px !important;
+}
+
+.img-dashboard-size {
+	width: 60px;
+	height: 60px;
+	border-radius: 6px;
+}
+
+.img-artikel {
+	width: 40px;
+	height: 40px;
+}
+
+.fa-trash-alt,
+.fa-info-circle,
+.fa-edit {
+	font-size: 18px;
+}
+
+.fa-trash-alt,
+.fa-edit {
+	visibility: hidden;
+	color: #fff;
+	padding: 3px;
+}
+
+.hover-x:hover .fa-trash-alt,
+.hover-x:hover .fa-edit {
+	cursor: pointer;
+	padding: 3px;
+	visibility: unset;
+	color: var(--blackhov);
+}
+
+
+.fa-trash-alt:hover,
+.fa-edit:hover {
+	color: var(--black) !important;
+}
+
+/* post */
+
+
+/* text */
+.text-title {
+	font-size: 20px;
+	color: var(--blackhov)
+}
+
+.text-title2 {
+	font-size: 18px;
+	color: var(--blackhov)
+}
+
+.text-title:hover {
+	color: var(--black);
+}
+
+.hover-x:hover .text-title,
+.hover-x:hover .text-title2,
+.hover-x:hover .p-time {
+	color: var(--black) !important;
+}
+
+.p-time {
+	font-size: 15px;
+	color: var(--blackhov);
+}
+
+figure img {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border-radius: 20px;
+}
+
+.h-img-teacher {
+	height: 320px !important;
+	border-radius: 10px;
+}
+
+.fa-envelope-open-text {
+	padding-top: 5px;
+	font-size: 33px;
+	float: left;
+}
+
+/* ckeditr */
+.ck-editor__editable_inline {
+	min-height: 200px;
+}
+
+
+/* login */
+
+.newacu {
+	font-size: 16px;
+}
+
+
+/* teacher */
+.i-teacher {
+	border-radius: 6px 6px 0 0;
+	width: 100%;
+	height: 220px;
+}
+
+/* mail */
+.mail-name {
+	color: black;
+	font-size: 20px;
+}
+
+.mail-email {
+	margin-top: 5px;
+	color: var(--black);
+	font-size: 16px;
+}
+
+/* gallery */
+.gallery-rad {
+	border-radius: 6px;
+}
+
+.dlgallerypoint {
+	color: var(--blackhov);
+	cursor: pointer;
+}
+
+.dlgallerypoint:hover {
+	color: var(--black);
+}
+
+/* prestasi */
+.top-radius {
+	border-radius: 4px 4px 0 0;
+}
+
+.card-title {
+	color: var(--blackhov);
+	font-size: 20px;
+}
+
+.hover a:hover .card-title {
+	color: var(--black);
+}
